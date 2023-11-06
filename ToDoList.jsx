@@ -37,13 +37,6 @@ function App() {
           </View>
         </Pressable>
       </ScrollView>
-      <View style={styles.form}>
-        <TextInput
-          style={styles.input}
-          placeholder="Add a new task..."
-        />
-        <Button title="Add" />
-      </View>
     </SafeAreaView>
   );
 }
